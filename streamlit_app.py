@@ -23,7 +23,7 @@ medicine_classifier = pickle.load(open('medicine_classifier.pkl', 'rb'))
 
 # Streamlit app
 def main():
-    st.title('Medical Recommendation')
+    st.title('MediPredict: AI-Driven Symptom Diagnosis')
     st.write('Enter your symptoms below:')
 
     # Get user input
